@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "pageDetails": {
+    "loginInfo": {
+      "browserTitle": "Login",
+      "heading": "Login"
+    },
+    "manageUsers": {
+      "browserTitle": "Manage Users | User List",
+      "heading": "User List"
+    },
+    "manageRoles": {
+      "browserTitle": "Manage Roles | Role List",
+      "heading": "Role List"
+    },
+    "deleteConfirmation": {
+      "heading": "Confirmation",
+      "content": "Are you sure you want to delete?"
+    },
+    "manageSubjects": {
+      "browserTitle": "Manage Users | User List",
+      "heading": "Subject List",
+      "addSubjectModalHeading": "Add Subject",
+      "updateSubjectModalHeading": "Update Subject Information"
+    },
+    "manageTopics": {
+      "browserTitle": "Manage Topics | Topic List",
+      "heading": "Topic List",
+      "addModalHeading": "Add Topic",
+      "updateModalHeading": "Update Topic Information"
+    }
+  },
+  "buttons": {
+    "addNewUser": "Add New User",
+    "addNewRole": "Add new role",
+    "submitBtn": "Submit",
+    "delBtn": "Delete",
+    "saveBtn": "Save",
+    "logoutBtn": "Logout",
+    "myProfileBtn": "My Profile",
+    "resetBtn": "Reset",
+    "updateBtn": "Update",
+    "addSubject": "Add new subject",
+    "cancelBtn": "Cancel"
+  },
+  "formMeta": {
+    "username": {
+      "lableText": "Email",
+      "errorMessages": {
+        "default": "Enter your email."
+      }
+    },
+    "currentPassword": {
+      "lableText": "Current Password",
+      "errorMessages": {
+        "224": "Enter your current password.",
+        "default": "Enter your current password."
+      }
+    },
+    "password": {
+      "lableText": "Password",
+      "errorMessages": {
+        "221": "Password must contain at least 8 characters, one uppercase, one number and one special case character",
+        "224": "Enter your password.",
+        "default": "Enter your password."
+      },
+      "regexPattern": "/^.*(?=.{8,})((?=.*[!@#$%^&*()-_=+{};:,<.>]){1})(?=.*d)((?=.*[a-z]){1})((?=.*[A-Z]){1}).*$/,"
+    },
+    "cPassword": {
+      "lableText": "Confirm password",
+      "maxlength": "12",
+      "errorMessages": {
+        "221": "Passwords don't match.",
+        "224": "Enter your confirm password.",
+        "default": "Enter your confirm password."
+      }
+    },
+    "firstName": {
+      "lableText": "First name",
+      "minlength": 2,
+      "maxlength": 60,
+      "errorMessages": {
+        "101": "Enter only letters.",
+        "221": "What you are entering exceeds the maximum characters length.",
+        "222": "Enter more than 2 characters.",
+        "224": "Enter your first name.",
+        "default": "Enter your first name."
+      },
+      "regexPattern": "^[a-zA-Z]+$"
+    },
+    "middleName": {
+      "lableText": "Middle name",
+      "minlength": 2,
+      "helperText": "Optional",
+      "maxlength": 50,
+      "errorMessages": {
+        "101": "Enter only letters.",
+        "221": "What you are entering exceeds the maximum characters length.",
+        "222": "Enter more than 2 characters."
+      },
+      "regexPattern": "^[a-zA-Z]+$"
+    },
+    "lastName": {
+      "lableText": "Last name",
+      "minlength": 2,
+      "maxlength": 60,
+      "errorMessages": {
+        "101": "Enter only letters.",
+        "221": "What you are entering exceeds the maximum characters length.",
+        "222": "Enter more than 2 characters.",
+        "224": "Enter your last name.",
+        "default": "Enter your last name."
+      },
+      "regexPattern": "^[a-zA-Z]+$"
+    },
+    "email": {
+      "lableText": "Username/Email",
+      "helperText": "",
+      "maxlength": 40,
+      "errorMessages": {
+        "221": "What you are entering exceeds the maximum characters length.",
+        "222": "Enter more than 2 characters.",
+        "224": "Enter your email address.",
+        "default": "Enter your email address in this format: user@example.com"
+      },
+      "regexPattern": "^[\\w.%+-]+@[\\w.-]+\\.[a-zA-Z]{2,}$"
+    },
+    "role": {
+      "lableText": "Role",
+      "helperText": "Use only capital letters (use underscore if two words)",
+      "minlength": 2,
+      "maxlength": 60,
+      "errorMessages": {
+        "101": "Invalid format. Use only capital letters (use underscore if two words).",
+        "221": "What you are entering exceeds the maximum characters length.",
+        "222": "Enter more than 2 characters.",
+        "224": "Enter role name.",
+        "default": "Enter role name."
+      },
+      "regexPattern": "^[A-Z_]+$"
+    },
+    "dropdownRole": {
+      "lableText": "Choose role",
+      "helperText": "",
+      "errorMessages": {
+        "224": "Choose a role.",
+        "default": "Choose a role."
+      }
+    },
+    "subjectName": {
+      "lableText": "Subject name",
+      "minlength": 2,
+      "maxlength": 60,
+      "errorMessages": {
+        "101": "Enter only letters, spaces, hyphens, or underscores.",
+        "221": "What you are entering exceeds the maximum characters length.",
+        "222": "Enter more than 2 characters.",
+        "224": "Enter your subject name.",
+        "default": "Enter your subject name."
+      },
+      "regexPattern": "^[a-zA-Z\\s-_]+$"
+    },
+    "status": {
+      "lableText": "Choose status",
+      "helperText": "",
+      "errorMessages": {
+        "224": "Choose a status.",
+        "default": "Choose a status."
+      }
+    }
+  }
+}
